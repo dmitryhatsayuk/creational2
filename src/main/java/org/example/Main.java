@@ -22,7 +22,6 @@ public class Main {
                 logger.log("Пользователь ввел не корректный размер списка:" + listSize);
             }
         }
-        //int listSize = scanner.nextInt();
         logger.log("Пользователь ввел размер списка:" + listSize);
 
         while (maxValue <= 0) {
